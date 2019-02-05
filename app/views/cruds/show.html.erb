@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @crud.nome %>
+</p>
+
+<p>
+  <strong>Id seq:</strong>
+  <%= @crud.id_seq %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @crud.email %>
+</p>
+
+<%= link_to 'Edit', edit_crud_path(@crud) %> |
+<%= link_to 'Back', cruds_path %>
